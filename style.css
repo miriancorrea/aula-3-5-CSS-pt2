@@ -1,0 +1,33 @@
+.header{
+    background-color: brown;
+    position: sticky;
+    position: -webkit-sticky; /*colocando esse codigo c=garantimos que o position sticky funcione em todos os navegadores*/
+    top: 0px;
+    border: solid 1px black;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.relativo{
+    position: relative;
+    height: 100px;
+    background-color: green;
+}
+
+.absoluto{ /*consigo dizer onde essa DIV ficara localuizada dentro da div relativo*/
+    position: absolute;
+    height: 50px;
+    background-color: red;
+    top: 0px;
+    right: 10px; 
+    width: 20px;
+}
+
+.fixed{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    background-color: purple;
+    bottom: 20px;
+    right: 20;
+}
